@@ -1,0 +1,9 @@
+
+h1,.content,footer{
+    text-align: center;  /* Centers the text inside the div */
+   
+}
+
+html{
+    background-color: rgb(193, 198, 201);   /* Set background color */
+}

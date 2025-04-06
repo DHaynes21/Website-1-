@@ -1,0 +1,63 @@
+header {
+    background-color: gray; /* Green background color */
+    color: white; /* Text color */
+    padding: 20px; /* Space inside the header */
+    width: 100%; /* Make sure the background spans the full width */
+    text-align: center; /* Center align the header content */
+}
+
+nav {
+    display: flex; /* Use flexbox for nav items */
+    justify-content: flex-start; /* Align the nav items to the left */
+    width: 100%; /* Ensure the nav takes up the full width */
+}
+
+nav ul {
+    list-style-type: none; /* Removes bullet points from the unordered list */
+    padding: 0;      /*  Removes default padding applied to <ul> */
+}
+
+
+nav ul li {
+    display: inline;      /*does not start a new line*/
+    margin: 0 15px;       /*set the margin*/
+}
+
+
+nav ul li a {
+    color: white;     /*set color*/
+    text-decoration: none;  /* remove text decorations*/
+    font-size: 18px;    /*set font size*/
+}
+
+nav ul li a:hover {
+    text-decoration: underline;   /* add a underline to text */
+}
+
+h2 {
+    text-align: center;  /* align text in the center */
+}
+
+
+body {
+    background-color: #f0f0f0; /* Light gray background for the page */
+    margin: 0; /* Remove any default margin */
+}
+
+body, section {
+    margin: 0;   /* Remove any default margin */ 
+    padding: 0;  /*no padding space*/
+}
+
+p{
+    margin-right: 700px;
+    font-style:normal
+}
+
+
+section {
+    padding: 20px;
+}
+footer{
+    text-align: center; /* Center the inline elements inside this container */
+  }

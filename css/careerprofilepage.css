@@ -1,0 +1,45 @@
+
+header {
+    background-color: gray; /* Green background color */
+    color: white; /* Text color */
+    padding: 20px; /* Space inside the header */
+    width: 100%; /* Make sure the background spans the full width */
+    text-align: center; /* Center align the header content */
+}
+nav {
+    display: flex; /* Use flexbox for nav items */
+    justify-content: flex-start; /* Align the nav items to the left */
+    width: 100%; /* Ensure the nav takes up the full width */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    display: block;
+    
+}
+
+footer{
+    text-align: center; /* Center the inline elements inside this container */
+  }
